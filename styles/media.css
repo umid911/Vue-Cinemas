@@ -1,0 +1,123 @@
+@media(max-width: 1400px) {}
+
+@media(max-width: 1200px) {
+    .main__films-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 20px;
+    }
+
+    .main__title {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 992px) {
+    .intro {
+        min-height: 450px;
+    }
+    .series__item-description{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 768px) {
+    .video__block-video {
+        width: 100%;
+    }
+    
+    
+    .video__block-description {
+        margin: 15px 0;
+    }
+    
+    .video__block-image {
+        width: 100%;
+    }
+    .series__item:nth-of-type(2) {
+        grid-column: span 2;
+    }
+    .series__item-title{
+        font-size: 20px;
+    }
+    .series__item-description{
+        line-height: 15px;
+    }
+    .series__items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .collections__items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        row-gap: 15px;
+    }
+    .series__item:nth-of-type(1) {
+        min-height: 381px;
+    }
+
+
+@media(max-width: 576px) {
+
+    .header__nav-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    }
+
+    .header__nav {
+        padding-top: 10px;
+    }
+
+    .intro__content-title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .intro__content-description {
+        margin-bottom: 20px;
+    }
+
+    .intro__content-links {
+        justify-content: center;
+    }
+
+    .header {
+        position: static;
+    }
+    }
+
+
+
+@media(max-width: 480px) {
+    .main__films {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .footer__content{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 15px;
+    }
+}
+
+@media(max-width: 375px) {
+    .header__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .header__nav-link span {
+        padding: 25px 0;
+    }
+
+    .main__films-img {
+        width: 100%;
+    }
+}
